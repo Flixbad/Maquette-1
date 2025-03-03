@@ -39,7 +39,6 @@ body {
           font-family: "Work Sans", serif;
           color: white;
           margin: 0 3px;
-          
         }
       }
 
@@ -179,57 +178,36 @@ body {
   }
 }
 
+footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 
-    footer {
-        background: #333;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
 
-        .footer-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
+  .contact,
+  .social {
+    max-width: 300px;
+  }
 
-        .contact, .social {
-            max-width: 300px;
-        }
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+  }
 
-        a {
-            color: white;
-            text-decoration: none;
-            margin: 0 5px;
-        }
-
-        .footer-bottom {
-            background: #222;
-            padding: 10px 0;
-            margin-top: 10px;
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .footer-bottom {
+    background: #222;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+}
 
 /* Responsive*/
 @media screen and (max-width: 768px) {
@@ -239,6 +217,8 @@ body {
 
   .content h1 {
     font-size: 2em;
+    align-items: center;
+    text-align: center;
   }
 
   .introduction .container {
@@ -265,7 +245,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+  }
 }
 
 @media screen and (max-width: 480px) {
